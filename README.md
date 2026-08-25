@@ -1,20 +1,20 @@
-# 📊 Análise de Transações Bancárias
+## Análise de Transações Bancárias
 
 Projeto de portfólio desenvolvido para praticar **SQL** e **Python** aplicados a um cenário de dados bancários — simulando clientes e suas transações, como em um banco digital.
 
-## 🎯 Sobre o projeto
+## Sobre o projeto
 
 O projeto simula um mini banco de dados com duas tabelas (`clientes` e `transacoes`) e responde perguntas de negócio como:
 - Qual cliente mais gastou?
 - Qual categoria concentra mais gastos?
 - Qual o ticket médio das transações?
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - **SQL** (SQLite) — criação de tabelas, consultas com `JOIN`, `GROUP BY` e agregações
 - **Python** — Pandas para manipulação de dados e Matplotlib para geração de gráficos
 
-## 📁 Estrutura do repositório
+## Estrutura do repositório
 
 ```
 portfolio-estagio/
@@ -26,7 +26,7 @@ portfolio-estagio/
 └── README.md
 ```
 
-## ▶️ Como executar
+## Como executar
 
 ```bash
 # 1. Instalar dependências
@@ -38,7 +38,7 @@ python python/analise_transacoes.py
 
 O script imprime as análises no terminal e salva dois gráficos (`.png`) na pasta `python/`.
 
-## 📈 O que o projeto demonstra
+## O que o projeto demonstra
 
 - Consultas SQL simples (`SELECT`, `WHERE`, `ORDER BY`)
 - Consultas com `JOIN` entre tabelas relacionadas
@@ -46,6 +46,6 @@ O script imprime as análises no terminal e salva dois gráficos (`.png`) na pas
 - Manipulação de dados com Pandas
 - Visualização de dados com Matplotlib
 
-## 📚 Aprendizados
+## Aprendizados
 
-Este projeto foi feito para consolidar conceitos estudados no curso de **SQL da FGV** e no curso básico de **Python**, unindo as duas linguagens em um caso prático de análise de dados — algo próximo do dia a dia de áreas de dados em empresas do setor financeiro.
+Fiz este projeto para colocar em prática o que aprendi nos cursos de SQL da FGV e de Python, usando as duas linguagens juntas em uma análise de dados. A ideia foi criar algo mais próximo de uma situação real, como as que podem aparecer no dia a dia de uma área de dados no setor financeiro.
